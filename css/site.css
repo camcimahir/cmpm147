@@ -1,3 +1,9 @@
+
+body {
+  background-color: beige;
+  font-family: 'Roboto' , sans-serif; 
+}
+
 h1, h2 {
   margin: 0;
   padding: 0;
@@ -6,17 +12,17 @@ h1, h2 {
 }
 
 #content {
-  width: calc(100% - 30px);
-  margin: 10px;080;
+  width: calc(80% );
+  margin: 10px;
   padding: 10px;
-  border: solid 1px #808;
-  font-family: sans-serif;
+  border: solid 3px brown;
+  font-family: 'Roboto';
 }
 
 .minor-section {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #A0A0A0;
+  border: solid 2px brown;
   border-radius: 10px;
 }
 
@@ -25,7 +31,15 @@ h1, h2 {
 }
 
 /* Set the image to be responsive */
+.image-wrapper {
+  display: inline-block; 
+  border: solid 5px brown; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
 .image-wrapper img {
+  display: block; 
   max-width: 100%;
   height: auto;
 }
