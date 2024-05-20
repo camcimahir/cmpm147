@@ -86,7 +86,7 @@ function p3_drawTile(i, j) {
       fill(0, 112, 192); // Blue for water
     }
   } else if (isLand) {
-    fill(0, 0, 0); // Black for land
+    fill(72, 170, 63);// Black for land
   } else if (isLand0) {
     // Scale the tileHash value to a range between 0 and 1
     let rand = tileHash / 100; // Assuming tileHash is in the range [0, 100]
